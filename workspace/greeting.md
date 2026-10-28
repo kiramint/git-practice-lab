@@ -1,3 +1,3 @@
 # Greeting
 
-Hello from main starter.
+Hello from the lab and conflict branches.
