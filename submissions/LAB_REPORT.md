@@ -4,14 +4,14 @@
 
 ## 基本信息
 
-- **GitHub 用户名：** <!-- 填写 -->
-- **功能分支名：** `lab/`<!-- 填写用户名 -->
+- **GitHub 用户名：** Xu-kang-Xing
+- **功能分支名：** `lab/`Xu-kang-Xing
 - **PR 链接：** <!-- 开好 PR 后粘贴 -->
 
 ## 阶段清单
 
-- [ ] Stage 0 — Fork、clone、upstream、创建 `lab/<username>`
-- [ ] Stage 1 — 工作区 / 暂存区 / commit
+- [1] Stage 0 — Fork、clone、upstream、创建 `lab/<username>`
+- [1] Stage 1 — 工作区 / 暂存区 / commit
 - [ ] Stage 2 — 分支、merge、冲突解决
 - [ ] Stage 3 — 坏提交 + revert
 - [ ] Stage 4 — 添加 submodule `third_party/kit`
@@ -21,7 +21,9 @@
 
 ### 1. 工作区、暂存区、已提交（commit）分别是什么？
 
-<!-- 你的回答 -->
+工作区就是工作区，差不多相当于做题时的全部题目步骤加草稿，或者说就是不使用git时的正常使用文件的区域。
+暂存区感觉就是一次对当前工作区的保存 但可以选择保存并提交哪些部分而不需要修改工作区的草稿和未完成的内容
+commit就是将现在暂存区的东西提交为一个完整的“版本”并保存下来。
 
 ### 2. `git pull` 和 `git fetch` 有何不同？你通常何时用哪个？
 

@@ -11,3 +11,7 @@
 先加入了3-6行的git add 解释，并使用git add workspace/notes.txt进行暂存
 之后使用git status查看修改状态，在文件中添加了7-9行内容后使用git diff进行比较并使用git add -p暂存
 后将换行时误加入的空白字符误用删除，并直接使用git add .进行暂存 现将尝试直接进行暂存并将其提交
+
+已提交。
+
+
