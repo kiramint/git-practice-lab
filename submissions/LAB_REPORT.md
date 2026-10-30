@@ -6,7 +6,7 @@
 
 - **GitHub 用户名：** Xu-kang-Xing
 - **功能分支名：** `lab/`Xu-kang-Xing
-- **PR 链接：** <!-- 开好 PR 后粘贴 -->
+- **PR 链接：** https://github.com/kiramint/git-practice-lab/pull/3
 
 ## 阶段清单
 
