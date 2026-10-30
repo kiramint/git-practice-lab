@@ -1,1 +1,13 @@
 在这里写下你的练习笔记。先改这一行，感受工作区和暂存区。
+
+/*git add:
+  git add . — 暂存所有修改
+  git add file.txt — 暂存单个文件
+  git add *.txt — 暂存所有 .txt 文件*/
+
+/*git add -p :分块提交修改到暂存区 
+  y:yes n: no  s:spilt 继续分割 q:quit 退出  a：all全部暂存 d:dont 全部不暂存 e:手动编辑*/
+
+先加入了3-6行的git add 解释，并使用git add workspace/notes.txt进行暂存
+之后使用git status查看修改状态，在文件中添加了7-9行内容后使用git diff进行比较并使用git add -p暂存
+后将换行时误加入的空白字符误用删除，并直接使用git add .进行暂存 现将尝试直接进行暂存并将其提交
