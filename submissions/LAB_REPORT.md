@@ -57,6 +57,7 @@ git fetch只是去远程仓库把最新的代码下载下来，但不会合并�
 
 - 同步 `upstream/main` 时使用：□ merge
 - 选择理由：为了保留完整的历史记录，不想改变已有的commit结构。
+  PR链接：https://github.com/kiramint/git-practice-lab/pull/4#issue-6134072003
 
 ## 其他备注（可选）
 
