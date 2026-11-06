@@ -10,8 +10,8 @@
 
 ## 阶段清单
 
-- [ ok] Stage 0 — Fork、clone、upstream、创建 `lab/<username>`
-- [ok ] Stage 1 — 工作区 / 暂存区 / commit
+- [x] Stage 0 — Fork、clone、upstream、创建 `lab/<username>`
+- [x] Stage 1 — 工作区 / 暂存区 / commit
 - [ ] Stage 2 — 分支、merge、冲突解决
 - [ ] Stage 3 — 坏提交 + revert
 - [ ] Stage 4 — 添加 submodule `third_party/kit`
@@ -39,7 +39,7 @@
 
 | 说明 | Hash |
 |------|------|
-| Stage 1 第一次较好的 commit | |
+| Stage 1 第一次较好的 commit |ed69c7c |
 | Stage 2 冲突解决（或合并）commit | |
 | Stage 3 revert 产生的 commit | |
 | Stage 4 submodule add 的 commit | |
