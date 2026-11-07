@@ -33,7 +33,7 @@
 
 ### 4. 带 submodule 的仓库 clone 后子目录是空的，常见原因是什么？怎么处理？
 
-<!-- 你的回答 -->
+<常见原因是别人clone时没加上 --recuse-submodules参数，或者在clone之后没有执行git submodule update --init.解决办法就是执行这两条命令之一来拉取子模块>
 
 ## 关键 commit（填写短 hash 或完整 hash）
 
@@ -42,7 +42,7 @@
 | Stage 1 第一次较好的 commit |ed69c7c |
 | Stage 2 冲突解决（或合并）commit |4591bf6 |
 | Stage 3 revert 产生的 commit |7678ad3 |
-| Stage 4 submodule add 的 commit | |
+| Stage 4 submodule add 的 commit | b219460|
 
 ## Stage 2 补充
 
