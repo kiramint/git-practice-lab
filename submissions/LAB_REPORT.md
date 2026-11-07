@@ -13,7 +13,7 @@
 - [x] Stage 0 — Fork、clone、upstream、创建 `lab/<username>`
 - [x] Stage 1 — 工作区 / 暂存区 / commit
 - [x] Stage 2 — 分支、merge、冲突解决
-- [ ] Stage 3 — 坏提交 + revert
+- [x] Stage 3 — 坏提交 + revert
 - [ ] Stage 4 — 添加 submodule `third_party/kit`
 - [ ] Stage 5 — fetch upstream、push、开 PR
 
@@ -29,7 +29,7 @@
 
 ### 3. 什么情况下不应该对已推送的共享分支使用 `git reset --hard`？为什么？
 
-<!-- 你的回答 -->
+<当分支已经推送到共享仓库，比如github,不可使用reset --hard,因为它会强行篡改历史记录，导致其他协作者拉取代码时发生严重冲突甚至代码丢失，这时必须用revert,因为它会生成一个新的提交来抵消之前的修改，不会破坏历史>
 
 ### 4. 带 submodule 的仓库 clone 后子目录是空的，常见原因是什么？怎么处理？
 
@@ -41,7 +41,7 @@
 |------|------|
 | Stage 1 第一次较好的 commit |ed69c7c |
 | Stage 2 冲突解决（或合并）commit |4591bf6 |
-| Stage 3 revert 产生的 commit | |
+| Stage 3 revert 产生的 commit |7678ad3 |
 | Stage 4 submodule add 的 commit | |
 
 ## Stage 2 补充
