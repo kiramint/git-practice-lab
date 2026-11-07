@@ -14,8 +14,8 @@
 - [x] Stage 1 — 工作区 / 暂存区 / commit
 - [x] Stage 2 — 分支、merge、冲突解决
 - [x] Stage 3 — 坏提交 + revert
-- [ ] Stage 4 — 添加 submodule `third_party/kit`
-- [ ] Stage 5 — fetch upstream、push、开 PR
+- [x] Stage 4 — 添加 submodule `third_party/kit`
+- [x] Stage 5 — fetch upstream、push、开 PR
 
 ## 简答题
 
@@ -25,7 +25,8 @@
 
 ### 2. `git pull` 和 `git fetch` 有何不同？你通常何时用哪个？
 
-<!-- 你的回答 -->
+<：
+git fetch 只是把远程仓库的最新内容下载到本地，不会改变你当前正在写的代码，非常安全；而 git pull 相当于 git fetch 加上 git merge，它会直接把远程的改动合并到你当前的分支里。我通常在想看看别人改了什么、或者想对比一下的时候用 fetch；当确定要把远程代码同步到我的分支并继续开发时用 pull。>
 
 ### 3. 什么情况下不应该对已推送的共享分支使用 `git reset --hard`？为什么？
 
@@ -51,8 +52,8 @@
 ，手动保留了功能分支的修改，删除了git自动生成的冲突符号
 ## Stage 5 补充
 
-- 同步 `upstream/main` 时使用：□ merge　□ rebase
-- 选择理由：
+- 同步 `upstream/main` 时使用：☑ merge 　□ rebase
+- 选择理由：因为使用 merge 命令操作起来最直观，而且可以保留完整的分支合并历史，对于当前的协同开发任务来说更安全。
 
 ## 其他备注（可选）
 
