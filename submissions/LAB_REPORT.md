@@ -12,7 +12,7 @@
 
 - [x] Stage 0 — Fork、clone、upstream、创建 `lab/<username>`
 - [x] Stage 1 — 工作区 / 暂存区 / commit
-- [ ] Stage 2 — 分支、merge、冲突解决
+- [x] Stage 2 — 分支、merge、冲突解决
 - [ ] Stage 3 — 坏提交 + revert
 - [ ] Stage 4 — 添加 submodule `third_party/kit`
 - [ ] Stage 5 — fetch upstream、push、开 PR
@@ -40,15 +40,15 @@
 | 说明 | Hash |
 |------|------|
 | Stage 1 第一次较好的 commit |ed69c7c |
-| Stage 2 冲突解决（或合并）commit | |
+| Stage 2 冲突解决（或合并）commit |4591bf6 |
 | Stage 3 revert 产生的 commit | |
 | Stage 4 submodule add 的 commit | |
 
 ## Stage 2 补充
 
-- 普通 merge 结果：□ 快进（fast-forward）　□ 合并提交（merge commit）　□ 其他：
-- 冲突解决简述：
-
+- 普通 merge 结果：□ 快进（fast-forward）　[x]合并提交（merge commit）　□ 其他：
+- 冲突解决简述：在feature和lab分支同时修改了greeting.md同一行，合并时产生冲突
+，手动保留了功能分支的修改，删除了git自动生成的冲突符号
 ## Stage 5 补充
 
 - 同步 `upstream/main` 时使用：□ merge　□ rebase
