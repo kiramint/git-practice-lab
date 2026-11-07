@@ -6,7 +6,7 @@
 
 - **GitHub 用户名：** <TheTop123-lab>
 - **功能分支名：** `lab/`<TheTop123-lab>
-- **PR 链接：** <!-- 开好 PR 后粘贴 -->
+- **PR 链接：** <https://github.com/kiramint/git-practice-lab/pull/5>
 
 ## 阶段清单
 
