@@ -1,0 +1,3 @@
+[submodule "third_party/kit"]
+	path = third_party/kit
+	url = https://github.com/kiramint/git-practice-kit.git
