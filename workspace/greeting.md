@@ -1,3 +1,3 @@
 # Greeting
 
-Hello from main starter.
+Hello from feature/greeting, edited by simon6-smarter.
