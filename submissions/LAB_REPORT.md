@@ -6,7 +6,7 @@
 
 - **GitHub 用户名：** simon6-smarter
 - **功能分支名：** `lab/simon6-smarter`
-- **PR 链接：** <!-- 开好 PR 后粘贴 -->
+- **PR 链接：** https://github.com/kiramint/git-practice-lab/pull/6
 
 ## 阶段清单
 
