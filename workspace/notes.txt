@@ -1,1 +1,10 @@
-在这里写下你的练习笔记。先改这一行，感受工作区和暂存区。
+这一行已经被我改写：正在练习工作区与暂存区的区别。
+
+Stage 1 笔记：
+- 工作区的改动，git diff 能看到。
+- git add 之后进入暂存区，git diff --staged 能看到。
+
+补充观察（第二轮）：
+- git status 曾同时显示 staged 和 unstaged 两类改动（MM 状态）。
+- 非交互环境用「分轮编辑、分轮 add」替代 git add -p，达到只暂存部分改动的效果。
+- 教训：git reset 把改动搬回工作区后，git restore 会把工作区改动全部丢弃，想保留的部分要先 stash 或先提交。
